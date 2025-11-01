@@ -22,4 +22,7 @@ jobs:
       run: |
         cd android
         python3 build.py || echo "Use buildozer init para configurar o build"
-        
+        run: |
+  cd android
+  python3 build.py || echo "Use buildozer init para configurar o build"
+  
