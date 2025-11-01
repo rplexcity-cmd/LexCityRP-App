@@ -1,0 +1,2 @@
+run: |
+  python3 build.py || echo "Use buildozer init para configurar o build"
